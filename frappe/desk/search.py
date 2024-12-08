@@ -110,7 +110,6 @@ def search_widget(
 		search_widget(
 			doctype=doctype,
 			txt=txt,
-			# query=standard_queries[doctype][0],
 			query=standard_queries[doctype][-1],
 			searchfield=searchfield,
 			start=start,
